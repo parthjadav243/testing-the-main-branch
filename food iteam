@@ -1,0 +1,10 @@
+public class FoodListArray {
+    public static void main(String[] args) {
+        String[] foodItems = {"Pizza", "Burger", "Pasta", "Salad", "Sushi"};
+
+        System.out.println("Food Items:");
+        for (String item : foodItems) {
+            System.out.println("- " + item);
+        }
+    }
+}
